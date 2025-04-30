@@ -1,4 +1,3 @@
-// src/app/contact/page.js
 'use client';
 
 import { useState } from 'react';
@@ -11,8 +10,11 @@ export default function Contact() {
         message: ''
     });
 
-    const [formStatus, setFormStatus] = useState({
-        status: null, // 'success', 'error', or null
+    const [formStatus, setFormStatus] = useState<{
+        status: 'success' | 'error' | null;
+        message: string;
+    }>({
+        status: null,
         message: ''
     });
 
