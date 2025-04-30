@@ -28,7 +28,7 @@ export default function Home() {
           <div className="lg:w-1/2">
             <h1 className="text-5xl font-bold">Developer. Designer. Problem Solver.</h1>
             <p className="py-6">
-              Hi, I'm Lane, Cody Pentecost to the government and Project-Faust to the internet. I craft efficient digital solutions with clean code and efficient design.
+              Hi, I'm Lane. Cody Pentecost to the government and Project-Faust to the internet. I craft efficient digital solutions with clean code and efficient design.
               Throughout my portfolio, you'll discover projects that showcase my technical skills and streamlined approach.
             </p>
             <div className="flex gap-4">
