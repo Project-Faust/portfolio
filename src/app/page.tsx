@@ -28,8 +28,8 @@ export default function Home() {
           <div className="lg:w-1/2">
             <h1 className="text-5xl font-bold">Developer. Designer. Problem Solver.</h1>
             <p className="py-6">
-              Hi, I'm Lane. Cody Pentecost to the government and Project-Faust to the internet. I craft efficient digital solutions with clean code and efficient design.
-              Throughout my portfolio, you'll discover projects that showcase my technical skills and streamlined approach.
+              Hi, I&apos;m Lane. Cody Pentecost to the government and Project-Faust to the internet. I craft efficient digital solutions with clean code and efficient design.
+              Throughout my portfolio, you&apos;ll discover projects that showcase my technical skills and streamlined approach.
             </p>
             <div className="flex gap-4">
               <Link href="/projects" className="btn btn-primary">View my work</Link>
@@ -79,7 +79,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-2">My Skills</h2>
             <p className="text-lg text-gray-600">
-              I've worked with a variety of technologies and tools throughout my development journey.
+              I&apos;ve worked with a variety of technologies and tools throughout my development journey.
             </p>
           </div>
 
@@ -123,9 +123,9 @@ export default function Home() {
 
       {/* Call to Action */}
       <div className="py-16 container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4">Let's Build Something Amazing Together</h2>
+        <h2 className="text-3xl font-bold mb-4">Let&apos;s Build Something Amazing Together</h2>
         <p className="mb-8 max-w-2xl mx-auto">
-          I'm always interested in hearing about new projects and opportunities.
+          I&apos;m always interested in hearing about new projects and opportunities.
           Whether you have a question or just want to say hi, feel free to reach out!
         </p>
         <Link href="/contact" className="btn btn-primary btn-lg">Get in Touch</Link>
