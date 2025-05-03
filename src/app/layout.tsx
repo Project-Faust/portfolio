@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
-import Footer from "./components/Footer"
+// import Footer from "./components/Footer"
 
 export const metadata: Metadata = {
   title: "Lane Pentecost - Portfolio",
@@ -21,7 +21,7 @@ export default function RootLayout({
           <main className="flex-grow">
             {children}
           </main>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>
